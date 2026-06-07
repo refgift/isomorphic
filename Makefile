@@ -1,8 +1,10 @@
+.SUFFIXES: .c .o
+
 .c.o:
 	cc -c $< -O
 
-iso:	isomorphic.o
-	cc -o $@ $<
+isomorphic: isomorphic.o
+	cc -o $@ isomorphic.o
 
 clean:
 	rm *.o

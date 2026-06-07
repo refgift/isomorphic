@@ -60,6 +60,7 @@ int main(int argc, char**argv) {
 
 	if (is_isomorphic(argv[1],argv[2])) {
 		printf("ISOMORPHIC\n");
+		fflush(stdout);
 	} 
 		
 	return 0;
