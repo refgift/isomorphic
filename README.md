@@ -10,5 +10,7 @@ ISOMORPHIC
   cp isomorphic /usr/local/bin
 - Use isomorphic system wide.
 
+# The ALGOL version
+- Not currently working.
 
 
