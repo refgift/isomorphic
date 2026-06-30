@@ -3,7 +3,7 @@
 - run with ./isomorphic "hot" isomorprhic.c
 
 ./isomorphic "hot" isomorphic.c      
-ISOMORPHIC
+Isomorphic pattern match: hot isomorphic.c
 
 # Install
 - as superuser 
@@ -12,5 +12,11 @@ ISOMORPHIC
 
 # The ALGOL version
 - Not currently working.
+
+# Theory
+- isomprohic match is used with transderivational search for meaning algorithm
+  which I am working on. The transderivational search applies map, accumulate
+  and delete with the match to test for map or accumulate or delete.
+
 
 
