@@ -59,10 +59,13 @@ int main(int argc, char**argv) {
 	}		
 
 	if (is_isomorphic(argv[1],argv[2])) {
-		printf("ISOMORPHIC\n");
+		printf("Isomorphic pattern match: %s, %s.\n", argv[1], argv[2]);
 		fflush(stdout);
-	} 
-		
+	} else {
+		printf("No match: %s.\n", argv[2]);
+		fflush(stdout);
+		return(-1);
+	}
 	return 0;
 }
 
